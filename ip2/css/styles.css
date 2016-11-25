@@ -1,22 +1,78 @@
 #logoJumbo {
-  background-image: url("../img/backgrounds/landing.jpg");
-  background-position: center;
+    background-image: url("../img/backgrounds/landing.jpg");
+    background-position: center;
 }
 
 #logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 50px;
-  padding-bottom: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 25px;
 }
 
 #logoJumbo, h2 {
-  font-weight: lighter;
-  color: #fff;
-  text-align: center;
+    font-weight: lighter;
+    color: #fff;
+    text-align: center;
 }
 
 #bold {
-  font-weight: bold;
+    font-weight: bold;
+}
+
+.col1 h3 {
+    text-align: center;
+    border: 2px solid #F15A29;
+    padding: 20px;
+}
+
+#section4 {
+    background-image: url("../img/backgrounds/foodsBg.jpg");
+}
+
+#section5 {}
+
+#section6 {
+    background-image: url("../img/backgrounds/subscribe.jpg");
+    background-position: center;
+}
+
+#section6 h3 {
+    text-align: center;
+    color: #fff;
+}
+
+#section6 form {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#subscribe {
+    color: #F15A29;
+}
+
+#section7 {
+    background-color: #F15A29;
+}
+
+#section7 h2 {
+    text-align: center;
+}
+
+#section7 h3 {
+    text-align: center;
+    color: #fff;
+}
+
+#section7 p {
+    text-align: center;
+    color: #fff;
+}
+
+#section7 ul {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
