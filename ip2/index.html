@@ -2,163 +2,208 @@
 <html>
 
 <head>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet">
     <script src="js/jquery.min.js"></script>
     <script src="js/scripts.js"></script>
-    <meta charset="utf-8">
     <title>Anita's Kitchen</title>
 </head>
 
 <body>
-    <!-- Start Of Section 1-->
+
+    <!-- Start of Section 1 -->
     <div id="logoJumbo" class="container-fluid">
         <img id="logo" src="img/logoBig.png">
-        <h2>We Provide The Best Food</h2>
-        <h2>At The <span id="bold">Right Price</span></h2>
+        <h2 id="best">We Provide The Best Food</h2>
+        <h2 id="the">At The <span id="bold">Right Price</span></h2>
         <br><br>
     </div>
-
-    <!-- End Of Section 1 -->
+    <!-- End of Section1  -->
 
     <!-- Start Of Section 2-->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-12 col-md-3 col1">
-                <div class="row">
-                    <h3>Happy Hour</h3>
-                </div>
-                <div class="row">
-                    <h3>Party Time</h3>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-3">
-                <img src="img/foodtop/breakfast.jpg">
-            </div>
-            <div class="col-sm-12 col-md-3">
-                <img src="img/foodtop/lunch.jpg">
-            </div>
-            <div class="col-sm-12 col-md-3">
-                <img src="img/foodtop/dinner.jpg">
-            </div>
+        <div class="container-fluid">
+          <div class="row split">
+
+            <div class="col-md-3 splita">
+                <div class="row happyHour">
+                  <h2 >Happy Hour  </h2>
+                </div> <!-- End of .happyHour -->
+                <div class="row partyTime">
+                  <h2 id="party">Party Time</h2>
+                </div> <!-- End Of .partyTime -->
+             </div>
+
+             <div class="col-md-3 breakfast">
+               <p class="text-center">Breakfast</p>
+             </div> <!-- End Of .breakfast -->
+
+            <div class="col-md-3 lunch">
+                <p class="text-center">Lunch</p>
+            </div> <!-- End Of .lunch -->
+
+            <div class="col-md-3 dinner">
+                <p class="text-center">Dinner</p>
+            </div> <!-- End Of .dinner -->
+          </div> <!-- End Of .split -->
         </div>
+
         <!-- End Of Section 2 -->
 
+
         <!--Start Of Section 3 -->
-        <div class="container-fluid">
-            <div class="row">
-                <div>
-                    <div class="thumbnail">
-                        <div class="thumbnail" id="foodthumbnail">
-                            <img src="img/fastFood1.jpg">
-                            <img src="img/fastFood2.jpg">
-                        </div>
-                        <div class="caption">
-                            <h3>Food</h3>
-                            <h4>You'll love our delicious fast food</h4>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
-                            </p>
-                            <a href="#" class="btn btn-default" role="button">VIEW GALLERY</span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    		<div class="container fastSect">
+    			<!-- Start of Fast Food row -->
+    			<div class="row fastSect">
+    				<div class="col-md-6 fastFoodImg">
+    					<img src="img/fastFood1.jpg" alt="fast food image">
+    					<img src="img/fastFood2.jpg" alt="fast food image">
 
-        <div id="drinks">
-            <div class="thumbnail">
-                <div class="thumbnail">
-                    <img class="float-left" src="img/drink1.jpg">
-                    <img src="img/drink2.jpg">
-                </div>
-                <div class="caption">
-                    <h3>Drink</h3>
-                    <h4>We also provide delicious drinks</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
-                    </p>
-                    <a href="#" class="btn btn-default" role="button">VIEW GALLERY</a>
-                </div>
-            </div>
-        </div>
+    				</div>
+    				<div class="col-md-6 fastFoodText">
+    					<h1>Fast Food</h1>
+    					<h3>You will love our delicious Fast food</h3>
+    					<p>
+    					Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Sed ultricies, leo vel finibus elementum, tellus lorem molestie metus, ut sagittis justo <br> augue et est. Aenean vestibulum sapien dapibus nunc porttitor, sed egestas dolor dictum. <br>Suspendisse sit amet est eget nisi blandit facilisis placerat ac ipsum. Morbi vestibulum nulla enim, eu rutrum dui ornare quis.
+    					</p>
+    					<button class="btn btn-lg btn-default">View Gallery
+    						<span class="glyphicon glyphicon-arrow-right"></span>
+    					</button>
+    				</div>
+    				<!-- Start of Drinks row -->
+    				<div class="clearfix"></div>
+    				<div class="row">
+    				<div class="col-md-6 drinksText">
+    					<h1>Drinks</h1>
+    					<h3>We also produce delicious drinks</h3>
+    					<p>
+    					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies, leo vel finibus elementum, tellus lorem molestie metus, ut sagittis justo augue et est. Aenean vestibulum sapien dapibus nunc porttitor, sed egestas dolor dictum. Suspendisse sit amet est eget nisi blandit facilisis placerat ac ipsum. Morbi vestibulum nulla enim, eu rutrum dui ornare quis.
+    					</p>
+    					<button class="btn btn-lg btn-default">View Gallery
+    						<span class="glyphicon glyphicon-arrow-right"></span>
+    					</button>
+    				</div>
+    				<div class="col-md-6 drinksImg">
+    					<img src="img/drink1.jpg" alt="drink1">
+    					<img src="img/drink2.jpg" alt="drink2">
 
+    				</div>
+    			</div>
+    		</div>
+    		</div>
         <!-- End Of Section 3 -->
 
         <!--Start Of Section 4 -->
-        <div id="section4" class="container-fluid">
-            <br><br><br>
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <ul class="nav nav-tabs">
-                        <li role="presentation" class="active"><a href="#">Fast Food</a></li>
-                        <li role="presentation"><a href="#">Drinks</a></li>
-                        <li role="presentation"><a href="#">Chicken</a></li>
-                        <li role="presentation"><a href="#">Rice</a></li>
-                    </ul>
-                </div>
-                <div class="panel-body">
-                    <div class="row">
-                        <div class="col-xs-6 col-md-3">
-                            <img class="thumbnail" src="img/fastfood/beefBurger.jpg">
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <img class="thumbnail" src="img/fastfood/chickenBurger.jpg">
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <img class="thumbnail" src="img/fastfood/chickenPizza.jpg">
-                        </div>
-                    </div>
-                </div>
-                <br><br><br>
-            </div>
-        </div>
+    		<div class="container-fluid tabSection">
+    			<div class="container">
+    				<div class="row tabBackground ">
+
+    					<ul class="nav nav-tabs nav-justified">
+    						<li class="active " ><a href="#fast" data-toggle="tab">Fast Food</a></li>
+    						<li class="disabled"><a href="#" data-toggle="tab">Drinks</a></li>
+    						<li class="disabled"><a href="#" data-toggle="tab">Chicken</a></li>
+    						<li class="disabled"><a href="#" data-toggle="tab">Rice</a></li>
+    					</ul>
+
+    					<div class="tab-content">	<!-- Start of .tab-content -->
+    						<div class="tab-pane fade in active" id="fast">
+
+    						  <div class="row tabfood">
+
+      							<div class="col-md-4">
+      								<img src="img/fastfood/chickenBurger.jpg" alt="chicken Burger">
+      								<h2>Chicken Burger</h2>
+      							</div>
+
+      							<div class="col-md-4">
+      								<img src="img/fastfood/beefBurger.jpg" alt="beef Burger">
+      								<h2>Beef Burger</h2>
+      							</div>
+
+      							<div class="col-md-4">
+      								<img src="img/fastfood/chickenPizza.jpg" alt="chicken pizza">
+      								<h2>Chicken Pizza</h2>
+      							</div>
+
+
+                </div> <!-- End of .row -->
+
+              </div> <!-- End of .tab-pane -->
+    					</div> <!-- End of .tab-content -->
+    				</div> <!-- End of .tabBg-->
+    			</div> <!-- End of .container -->
+
+    		</div>
+
         <!-- End Of Section 4 -->
 
         <!--Start Of Section 5 -->
-        <div id="section5">
-            <div class="panel panel-default">
-                <div class="panel-heading">Our Happy Customers</div>
-                <div class="panel-body">
-                    <h3>George Richard</h3>
-                    <p>Great Food! Menu is awesome. The food is not only great, but also in the right price. I'll highly recommend them.</p>
-                    <img src="img/customers/p2.png">
-                </div>
-            </div>
-        </div>
+    		<div class="container">
+    			<div class="row section5">
+    				<div class="col-md-6 customers">
+      				<h1>Our Happy Customers</h1>
+      				<h3>George Richard</h3>
+      				<p>
+      					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies, leo vel finibus elementum, tellus lorem molestie metus,
+      				</p>
+
+              <div id="footer">
+        				<span class="glyphicon glyphicon-chevron-left indicators"></span>
+        				<img src="img/customers/p1.png" alt="">
+        				<img src="img/customers/p2.png" alt="">
+        				<img src="img/customers/p3.png" alt="">
+        				<span class="glyphicon glyphicon-chevron-right indicators"></span>
+              </div>  <!-- End Of #footer -->
+
+            </div> <!-- End Of .customers -->
+
+    				<div class="col-md-6 aboutMenu">
+    					<h1>About Menu</h1>
+    					<p>
+    					  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies, leo vel finibus elementum, tellus lorem molestie metus, ut sagittis justo augue et est. Aenean vestibulum sapien dapibus nunc porttitor, sed egestas dolor dictum. Suspendisse sit amet
+    					</p>
+
+    				</div> <!-- End Of .aboutMenu -->
+
+    			</div> <!-- End of .aboutSect -->
+
+    		</div>
         <!-- End Of Section 5 -->
 
         <!--Start Of Section 6 -->
-        <div id="section6" class="container-fluid">
-            <br><br><br><br>
-            <h3>Get our daily food items delivery yo your email</h3>
-            <form class="form-inline">
-                <div class="form-group">
-                    <input type="email" class="form-control" id="email" placeholder="Your Email">
-                </div>
-                <button type="submit" class="btn btn-default" id="subcribe">Subcribe</button>
-            </form>
-            <br><br><br><br>
-        </div>
+
+    		<div class="container-fluid subscribe">
+    			<h1 class="unsubscribed">Get our daily food items deliverd to your email</h1>
+    			<h1 class="subscribed"></h1>
+
+    			<div class="col-md-offset-4 col-md-4 unsubscribed">
+    				<form id="subscribe" class="form-inline">
+    					<input id="emailInput" class="form-control" type="email" placeholder="Enter your email">
+    					<button class="btn btn-default btn-lg">Subscribe</button>
+    				</form>
+
+    			</div>   <!-- End Of .unsubscribed -->
+
+
+    		</div>
+
         <!-- End Of Section 6 -->
 
         <!--Start Of Section 7 -->
         <div id="section7" class="container-fluid">
-            <br><br>
-            <img="img/footerlogos/logo_white.png">
-                <h2>MENU</h2>
-                <br>
+                <h2><img class="responsive" src="img/footerlogos/logo_white.png"> MENU</h2>
                 <h3>Thats What We Are</h3>
-                <br>
-                <div class="row center">
-                    <a href="#"><img src="img/footerlogos/facebook.png"></a>
-                    <a href="#"><img src="img/footerlogos/twitter.png"></a>
-                    <a href="#"><img src="img/footerlogos/pinterest.png"></a>
+
+                <div class="row socialrow" >
+                    <a href="#"><img style="height: 50px; width:50px" class="responsive" src="img/footerlogos/facebook.png"></a>
+                    <a href="#"><img style="height: 40px; width:40px" class="social responsive" src="img/footerlogos/twitter.png"></a>
+                    <a href="#"><img style="height: 50px; width:50px" class="social responsive" src="img/footerlogos/pinterest.png"></a>
                 </div>
+
                 <p>2016 Menu Restaurant</p>
-                <br><br>
+
         </div>
         <!-- End Of Section 7 -->
-</body>
 
+      </body>
 </html>

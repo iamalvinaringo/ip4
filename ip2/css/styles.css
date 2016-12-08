@@ -1,6 +1,8 @@
+/*Start of section1*/
 #logoJumbo {
     background-image: url("../img/backgrounds/landing.jpg");
     background-position: center;
+    background-size: cover;
 }
 
 #logo {
@@ -12,67 +14,267 @@
 }
 
 #logoJumbo, h2 {
-    font-weight: lighter;
     color: #fff;
+    font-weight: lighter;
     text-align: center;
 }
 
 #bold {
+    color: #fff;
     font-weight: bold;
 }
 
-.col1 h3 {
-    text-align: center;
-    border: 2px solid #F15A29;
-    padding: 20px;
+#best{
+  color: #fff;
+}
+#the{
+  color: #fff;
 }
 
-#section4 {
-    background-image: url("../img/backgrounds/foodsBg.jpg");
+#party{
+  color: #fff;
+}
+/*End of section1*/
+
+/*Start of section2*/
+.split{
+	margin-bottom: 8%;
 }
 
-#section5 {}
-
-#section6 {
-    background-image: url("../img/backgrounds/subscribe.jpg");
-    background-position: center;
+.happyHour,.partyTime{
+	padding: 4%;
+	font-size: 40px;
 }
 
-#section6 h3 {
-    text-align: center;
-    color: #fff;
+.partyTime{
+  color: #fff;
+	background-color: #F15A29;
 }
 
-#section6 form {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+.breakfast{
+	background: url(../img/foodtop/breakfast.jpg) no-repeat center center;
+}
+
+.breakfast p{
+	padding: 20%;
+	padding-top: 22%;
+	color: white;
+	font-size: 25px;
+  font-style: italic;
+}
+
+.lunch{
+	background: url(../img/foodtop/lunch.jpg) no-repeat center center;
+}
+
+.lunch p{
+  color: white;
+	padding: 20%;
+	padding-top: 22%;
+	font-size: 25px;
+  font-style: italic;
+}
+
+.dinner{
+	background: url(../img/foodtop/dinner.jpg) no-repeat center center;
+}
+
+.dinner p{
+	padding: 20%;
+	padding-top: 22%;
+	color: white;
+	font-size: 25px;
+  font-style: italic;
+}
+
+.breakfast:hover,.lunch:hover,.dinner:hover{
+	opacity: 0.7;
+}
+/*End of section2*/
+
+/*Start of section3*/
+.fastFoodImg{
+	border: 2px solid #f3f3f3;
+	background: white;
+	padding: 4%;
+}
+
+.fastFoodText{
+	text-align: left;
+	margin-top: 2%;
+}
+
+.fastFoodText p{
+	font-size: 20px;
+}
+
+.btn-default {
+background: #fff;
+border-color:  #F15A29;
+color:  #F15A29;
+}
+
+.btn-default:hover {
+
+background: #fff;
+border-color:  #F15A29;
+color:  #F15A29;
+}
+
+.drinksImg{
+	border: 2px solid #f3f3f3;
+	box-shadow: 2px;
+	background: white;
+	padding: 4%;
+	margin: 0;
+}
+.drinksText{
+	text-align: right;
+	margin-top: 2%;
+}
+
+.drinksText p{
+	font-size: 20px;
+}
+
+.fastSect{
+	padding-bottom: 2%;
+}
+
+.fastSect h1{
+ font-size: 40px;
+ font-weight: bolder;
+}
+
+.fastSect h3{
+ font-size: 30px;
+ font-weight: bolder;
+}
+/*End of section3*/
+
+/*Start of section4*/
+.tabSection{
+	background: url(../img/backgrounds/foodsBg.jpg) no-repeat center center;
+	padding-bottom: 20%;
+}
+.tabBackground{
+	background: #fff;
+	margin-top: 20%;
+}
+#fast img{
+	padding-top: 6%;
+  padding-left: 13%;
+}
+.nav a{
+	font-size: 25px;
+	background: #dee0e2;
+	font-weight: bold;
+}
+#fast, h2{
+	color: #F15A29;
+}
+/*End of section4*/
+
+/*Start of section5*/
+.section5 {
+	border: solid 1px  #dee0e2 ;
+}
+.aboutMenu{
+	margin-top:2%;
+	border-left: 1px solid  #dee0e2;
+}
+.aboutMenu p{
+	text-align: justify;
+}
+.section5 h1, span{
+	color: #F15A29;
+}
+
+.customers{
+	margin-top: 2%;
+}
+
+.customers, img {
+  padding-bottom: 4px;
+}
+
+#footer {
+text-align: center;
+}
+/*End of section5*/
+
+/*Start of section6*/
+.subscribe{
+	background: url(../img/backgrounds/subscribe.jpg) no-repeat center center;
+}
+
+.subscribe, h1 {
+  text-align: center;
+  margin-top: 5%;
+	color: white;
+}
+
+.subscribe input{
+	background: rgba(255,255,255,0.4);
+}
+
+.subscribe input:hover{
+	background: rgb(255,255,255);
+}
+
+.subscribe button{
+	background-color: #F15A29;
+	color: white;
+	margin-left:4%;
+}
+
+.subscribe button:hover{
+	background-color: #F15A29;
+	color: white;
 }
 
 #subscribe {
-    color: #F15A29;
+	margin-bottom: 25%;
 }
 
+.subscribed{
+	display: none;
+  padding-top: 3%;
+	padding-bottom: 10%;
+}
+/*End of section6*/
+
+/*Start of section7*/
 #section7 {
     background-color: #F15A29;
 }
 
 #section7 h2 {
+    color: #fff;
     text-align: center;
+    font-size: 50px;
+    padding-top: 4%;
+    padding-bottom: 4%;
 }
 
 #section7 h3 {
     text-align: center;
     color: #fff;
+    padding-bottom: 4%;
 }
 
 #section7 p {
+    padding-bottom: 2%;
     text-align: center;
     color: #fff;
 }
 
-#section7 ul {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.socialrow {
+  text-align: center;
+  padding-bottom: 2%;
 }
+
+.social {
+  margin-left: 2%;
+}
+/*End of section7*/
