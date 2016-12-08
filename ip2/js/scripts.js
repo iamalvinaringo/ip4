@@ -5,9 +5,18 @@ $(document).ready(function(){
 		var input=$("#emailInput").val();
 
 		$(".unsubscribed").hide();
-		$(".subscribed").append(input + " is now subscribed.")
+		$(".subscribed").append(input + " has been successfully added to our email list. Thank you.")
 		$(".subscribed").show();
 
-		$
+	});
+
+	$(".hamberger-menu").click(function(){
+	document.getElementById("myNav").style.width = "100%";
+	});
+
+
+	/* Close when someone clicks on the "x" symbol inside the overlay */
+	$(".closebtn").click(function() {
+	document.getElementById("myNav").style.width = "0%";
 	});
 });
