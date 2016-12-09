@@ -1,0 +1,21 @@
+ body {
+   background-image: url("../img/wbg.jpg");
+   background-position: center;
+
+ }
+img {
+  margin-left: 10px;
+  height: 50px;
+  width: 50px;
+}
+
+h1 {
+  font-family: 'Monoton', cursive;
+  text-align: center;
+  padding: 50px;
+
+}
+
+.yellow {
+  margin-left: 4%;
+}
